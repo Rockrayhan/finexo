@@ -1,3 +1,83 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  @apply mx-auto max-w-screen-xl;
+}
+
+
+.center {
+  @apply flex justify-center items-center;
+}
+
+.text-primary{
+  color: #00bbf0;
+}
+
+/* .btn-bg {
+  background-color: #00bbf0;
+} */
+
+.btn-primary {
+  background-color: #00bbf0;
+  border: none;
+  border-radius: 0;
+  font-weight: 700;
+  color: white;
+  
+}
+
+
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+
+
+.about-section {
+  background-color: #00204a;
+  color: #ffffff;
+  height: 100vh;
+}
+
+
+
+.choose-us-img-border{
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  min-height: 120px;
+  border-radius: 100%;
+  border: 5px solid #00204a;
+
+}
+
+.choose-us-img-border img {
+  width: 55px;
+  height: auto;
+}
+
+
+.team-section{
+  background-color: #00204a;
+  overflow-x: hidden;
+}
+
+.team-card {
+  background: linear-gradient(to bottom, #002759, #002b64);
+  padding: 35px 0 0 0;
+    border-radius: 5px;
+    margin-top: 45px;
+    color: white;
+}

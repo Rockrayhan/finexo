@@ -1,9 +1,17 @@
 import React from 'react';
+import Services from '../Components/Services';
+import About from '../Components/About';
+import ChooseUs from '../Components/ChooseUs';
+import Team from '../Components/Team';
 
 const Home = () => {
     return (
         <div>
-            <h1> welcome HOme </h1>
+
+        <Services/>
+        <About/>
+        <ChooseUs/>
+        <Team/>
         </div>
     );
 };
